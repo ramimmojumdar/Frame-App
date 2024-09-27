@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "789290848633",
+    "project_id": "father-day-frame-cf4bd",
+    "storage_bucket": "father-day-frame-cf4bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789290848633:android:c94e1325509b84cdd69fa8",
+        "android_client_info": {
+          "package_name": "com.digitalapp.fathersdayphotoframeimageeditor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789290848633-g54kgusf9r8srj3l1t1hk3b3pfvfl0lj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcQruHYobyxRhssUJAiRIpDPd85vHH7g0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789290848633-g54kgusf9r8srj3l1t1hk3b3pfvfl0lj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

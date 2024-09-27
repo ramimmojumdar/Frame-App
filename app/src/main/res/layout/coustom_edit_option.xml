@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/allEditBtn"
+        android:layout_width = "match_parent"
+        android:layout_height = "70dp"
+        android:orientation="horizontal"
+        android:background="#CAFFFCE6"
+        android:weightSum="4"
+        android:padding="7dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/image_gallery"
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width = "30dp"
+                android:layout_height = "30dp"
+                android:src="@drawable/gallery"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/images_text"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:text="Images"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/frameBtn"
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width = "30dp"
+                android:layout_height = "30dp"
+                android:src="@drawable/frame"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/frame_text"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:text="Frame"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/stickerBtn"
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width = "30dp"
+                android:layout_height = "30dp"
+                android:src="@drawable/sticker_ic"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/sticker_text"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:text="Sticker"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/textBtn"
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width = "30dp"
+                android:layout_height = "30dp"
+                android:src="@drawable/font"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/text_text"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:text="Text"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout >

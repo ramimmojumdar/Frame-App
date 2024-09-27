@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    android:id="@+id/forTextLayoutId"
+    android:orientation="vertical"
+
+    >
+
+    <include
+        layout="@layout/for_edit_toolbar"
+        />
+
+
+    <EditText
+        android:layout_margin="16dp"
+        android:id="@+id/editTextInput"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="Write your text here"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:background="@drawable/edittext_border"
+        android:padding="16dp"/>
+
+    <!-- SeekBar for text size -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text Size"
+        android:layout_margin="16dp"
+        />
+
+    <SeekBar
+        android:layout_margin="16dp"
+        android:id="@+id/seekBarTextSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:progress="16"/>
+
+    <!-- Buttons for color picking -->
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text Color"
+        android:layout_margin="16dp"
+        />
+
+    <Button
+        android:layout_margin="16dp"
+        android:id="@+id/btnPickTextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick Text Color" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Background Color"
+        android:layout_margin="16dp"
+        />
+
+    <Button
+        android:layout_margin="16dp"
+        android:id="@+id/btnPickBackgroundColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick Background Color" />
+
+    <Button
+        android:id="@+id/btnCreateSticker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Sticker"
+        android:layout_margin="16dp"
+        />
+
+</LinearLayout>
